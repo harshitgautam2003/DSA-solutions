@@ -21,7 +21,7 @@ public:
             ans[0]=m;
             ans[1]=m;
             while(m-1>=0 && nums[m-1]==target) ans[0]=--m;
-            while(m+1<h && nums[m+1]==target) ans[1]=++m;  
+            while(m+1<h+1 && nums[m+1]==target) ans[1]=++m;  
         }
         return ans;
     }
